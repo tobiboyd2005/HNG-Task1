@@ -1,0 +1,109 @@
+body{
+    margin: 20px;
+    background-color: #352F44;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tobi{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.tcenter{
+    text-align: center;
+}
+
+.git-link > p{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.datetime-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cd-container, .time-container{
+    background-color: #5C5470;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.git{
+    width: 50px;
+    margin-top: 30px;
+}
+
+.git-img-cont{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .tobi{
+        width: 200px;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 15px;
+        font-size: medium;
+    }
+
+    .datetime-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 15px;
+    }
+
+    .cd-container, .time-container{
+        width: 100%;
+        height: 130px;
+    }
+    
+  }

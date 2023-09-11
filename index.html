@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+<body>
+    
+    <div class="main">
+        <h1 data-testid="slackUserName">Oluwatobi Gregory Olanrewaju</h1>
+        <h2 data-testid="myTrack">FrontEnd Track</h2>
+        <hr/>
+        <div class="img-container">
+            <img data-testid="slackDisplayImage" class="tobi" src="./tobi.jpg" alt="Tobi's Image"/>
+        </div>
+        <div class="datetime-container">
+            <div class="cd-container">
+                <p class="title">Day of the Week</p>
+                <p data-testid="currentDayOfTheWeek" id="currentDay"></p>
+            </div>
+            <div class="time-container" id="time-container">
+                <p class="title">Current UTC time</p>
+                <p data-testid="currentUTCTime" id="utcTime"></p>
+            </div>
+        
+        </div>
+        <div class="git-img-cont">
+        <a class="git-link" data-testid="githubURL" href="https://github.com/tobiboyd2005/HNG-Internship/tree/main/task1"><img class="git tcenter" src="./github.png"></a>
+        </div>
+        <script src="./index.js"></script>
+        <footer>
+            <p>Powered by Oluwatobi</p>
+        </footer>
+    </div>
+
+
+    
+</body>
+</html>
+
